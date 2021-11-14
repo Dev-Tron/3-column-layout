@@ -1,0 +1,13 @@
+body{
+    background-color: hsl (0, 0%, 95%)
+}
+
+#container{
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.content{
+    display: flex;
+    flex-direction: row;
+}
