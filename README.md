@@ -65,3 +65,4 @@ I want to continue to further myself with using properties of CSS more effective
 ## Author
 
 - Frontend Mentor - (https://www.frontendmentor.io/profile/@Dev-Tron)
+# 3-column-layout
