@@ -34,8 +34,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](git@github.com:Juicewiz/test-site-1.git)
-- Live Site URL: [Add live site URL here](http://127.0.0.1:5500/index.html)
+- Solution URL: (git@github.com:Dev-Tron/3-column-layout.git)
+- Live Site URL: (https://dev-tron.github.io/3-column-layout/)
 
 ## My process
 
