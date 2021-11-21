@@ -2,12 +2,121 @@ body{
     background-color: hsl (0, 0%, 95%)
 }
 
-#container{
-    width: 1440px;
-    margin: 0 auto;
+#grid{
+    
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    margin-top: -250px;
+    margin-left: -450px;
+    max-width: 800px;
+    height: 100px;
+    display: grid;
+    grid-template-columns: 240px 240px 240px;
 }
 
-.content{
+.sedan{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    background-color: hsl(31, 77%, 52%);
+    padding: 3em;
+    width: 200px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius:  10px;
 }
+
+.luxury{
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(179, 100%, 13%);
+    padding: 3em;
+    width: 200px;
+    margin-left: -150px;
+    border-top-right-radius:    10px;
+    border-bottom-right-radius: 10px;
+    }
+
+.suv{
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(184, 100%, 22%);
+    padding: 3em;
+    width: 200px;
+    margin-left: -150px;
+}
+
+p{
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+    color: hsla(0, 0%, 100%, 0.75);
+    width: fit-content;
+    line-height: 25px;
+}
+
+h1{
+    font-family: 'Big Shoulders Display', cursive;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+button{
+    background-color: hsla(0, 0%, 100%, 0.75);
+    padding: 6px 12px;
+    border-radius: 25px;
+    width: 140px;
+    margin-top: 100px;
+    height: 50px;
+    font-size: medium;
+}
+
+img{
+    width: fit-content;
+}
+
+.orange{
+    color: hsl(31, 77%, 52%);
+}
+
+.lightgreen{
+    color: hsl(184, 100%, 22%);
+}
+
+.darkgreen{
+    color: hsl(179, 100%, 13%);
+}
+
+@media screen and (max-width: 850px) {
+
+    #grid{
+    display: inline;
+    margin-left: -150px;
+    }
+
+    .sedan{
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 0;
+    }
+
+    .luxury{
+        border-bottom-left-radius: 10px;
+        border-top-right-radius: 0;
+        margin-left: 0;
+    }
+    .suv{
+        margin-left: 0;
+    }
+}
+
+@media screen and (min-width: 849px) {
+    .suv{
+        margin-left: 50px;
+    }
+    
+     .sedans{
+         margin-left: auto;
+     }
+
+     .luxury{
+         margin-left: 100px;
+     }
+}
+    
